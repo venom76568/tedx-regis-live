@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000/graphql", // Replace with your GraphQL server
+  uri: "https://tedx-backend-6x4f.onrender.com/graphql", // Replace with your GraphQL server
   cache: new InMemoryCache(),
 });
 
